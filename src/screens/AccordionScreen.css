@@ -1,0 +1,6 @@
+.screen__accordion {
+	min-height: 100vh;
+	background: radial-gradient(83.46% 83.46% at 79.62% 11.12%, #2c35b6 22.4%, #132358 97.86%);
+
+	scroll-snap-align: start;
+}

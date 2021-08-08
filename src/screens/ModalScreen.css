@@ -1,0 +1,31 @@
+.screen__modal {
+	min-height: 100vh;
+	background-color: rgb(255, 255, 255);
+	position: relative;
+	scroll-snap-align: start;
+}
+
+.button {
+	padding: 15px 60px;
+	border: solid 2px #22187c;
+	border-radius: 100px;
+	background-color: #e5e2ff3f;
+	color: #22187c;
+	font-weight: bold;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0px);
+	transition: all 0.1s;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #22187c;
+	color: white;
+	transform: translate(-50%, -4px);
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.377);
+}
+.button:active {
+	transform: translate(-50%, -2px);
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.377);
+}

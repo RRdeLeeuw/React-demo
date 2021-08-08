@@ -1,0 +1,6 @@
+.screen__form {
+	background: radial-gradient(83.46% 83.46% at 79.62% 11.12%, #271d83 22.4%, #1a1358 97.86%);
+	min-height: 100vh;
+	position: relative;
+	scroll-snap-align: start;
+}

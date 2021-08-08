@@ -1,0 +1,43 @@
+.modal-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.678);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(5px);
+}
+
+.modal-inner {
+	width: 50%;
+	max-width: 600px;
+	height: 50%;
+	max-height: 400px;
+	background-color: white;
+	padding: 50px;
+	border-radius: 10px;
+	position: relative;
+}
+
+.modal-title {
+	text-align: center;
+}
+
+.modal-content {
+	border: none !important;
+	margin-top: 40px;
+}
+
+.modal-closebutton {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	cursor: pointer;
+}
