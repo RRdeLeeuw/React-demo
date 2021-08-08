@@ -32,7 +32,7 @@ select {
 	display: flex;
 }
 .h-100 {
-	height: 100vh;
+	height: 90vh;
 }
 .flex-column {
 	display: flex;

@@ -3,14 +3,11 @@ import Modal from '../components/Modal';
 import './ModalScreen.css';
 
 const ModalScreen = () => {
-	const [visible, setVisibility] = useState(false);
-
-	const renderModal = (visible) => {
-		return visible ? <Modal setVisibility={setVisibility} /> : null;
-	};
+	// const [visible, setVisibility] = useState(false);
+	const [entered, setEntered] = useState(false);
 
 	const showModal = () => {
-		setVisibility(true);
+		setEntered(true);
 	};
 
 	return (
@@ -19,7 +16,7 @@ const ModalScreen = () => {
 				<button className='button' onClick={showModal}>
 					Show modal
 				</button>
-				{renderModal(visible)}
+				<Modal in={entered} setEntered={setEntered} />
 			</div>
 		</div>
 	);

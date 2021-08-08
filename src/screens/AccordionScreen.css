@@ -4,3 +4,7 @@
 
 	scroll-snap-align: start;
 }
+
+.rotate {
+	transform: rotate(180deg);
+}
